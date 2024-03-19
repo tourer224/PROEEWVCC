@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    margin-top: 20px; /* Отступ от верхнего края header */
+    margin-top: 10px; /* Отступ от верхнего края header */
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav ul li {
 nav ul li a {
     color: #333;
     background-color: #ddd;
-    padding: 30px 60px; /* Увеличиваем размер кнопок */
+    padding: 60px 120px; /* Увеличиваем размер кнопок */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
@@ -50,7 +50,7 @@ main {
 /* Стилизация кнопок в содержимом страницы */
 .button {
     display: inline-block;
-    padding: 30px 60px; /* Увеличиваем размер кнопок */
+    padding: 60px 120px; /* Увеличиваем размер кнопок */
     background-color: #007bff; /* Цвет кнопки */
     color: #fff; /* Цвет текста кнопки */
     text-decoration: none;
