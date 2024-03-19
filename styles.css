@@ -5,9 +5,7 @@ body {
 }
 
 header {
-    background-image: url('path/to/your/image.jpg'); /* Путь к вашей картинке */
-    background-size: cover; /* Растягиваем картинку на всю область header */
-    background-position: center; /* Центрируем картинку */
+    background-image: linear-gradient(to right, #00b712, #5ad88c); /* Зеленый градиент */
     color: #fff; /* Цвет текста белый */
     padding: 20px;
     text-align: center; /* Центрируем текст */
