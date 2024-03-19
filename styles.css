@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: linear-gradient(to right, #166b19, #3fcc44, #00ff09);
     color: #000; /* Цвет текста черный */
     padding: 20px;
 }
