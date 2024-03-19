@@ -7,7 +7,7 @@ header {
     background-image: url('path/to/your/image.jpg'); /* Путь к вашей картинке */
     background-size: cover; /* Растягиваем картинку на всю область header */
     background-position: center; /* Центрируем картинку */
-    color: #000;
+    color: #000; /* Цвет текста черный */
     padding: 20px;
 }
 
