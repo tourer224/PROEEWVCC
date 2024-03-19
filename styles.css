@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('path/to/your/image.jpg'); /* Путь к вашей картинке */
+    background-size: cover; /* Растягиваем картинку на всю область header */
+    background-position: center; /* Центрируем картинку */
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #999;
+    color: #fff;
+}
