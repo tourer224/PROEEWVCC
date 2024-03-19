@@ -6,7 +6,6 @@ body {
 
 header {
     background: linear-gradient(to right, #00b712, #5ad88c); /* Зеленый градиент */
-    color: #fff; /* Цвет текста белый */
     padding: 20px;
     text-align: center; /* Центрируем текст */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
