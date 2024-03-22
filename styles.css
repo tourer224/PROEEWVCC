@@ -5,7 +5,7 @@ div {
 body {
 color: rgba(0,0,0);
 margin: 0;
-background: linear-gradient(135deg,rgba(146, 242, 111)  40%, rgba(156, 168, 151) 15%); rgba(59, 135, 31) 72%);
+background: linear-gradient(135deg,rgba(173, 242, 143)  50%, rgba(255, 255, 255) 50%); 
 font-size: larger;
 font-family: Ubuntu Light, Segoe UI Light, Arial !important;
  scroll-behavior: smooth;
@@ -35,23 +35,26 @@ background: rgba(255,255,255,0.1);
 .title {
     width: 100%;
     padding-top: 1em;
-    font-size: 40px;
+    font-size: 3em;
     padding-bottom: 1em;
     background: rgba(255,255,255,0.1);
 box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
 color: rgba(255,255,255);
 }
 .top {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     padding-top: 2em;
 background-position-top: -5px;
 box-shadow: inset 0 0 150px 0 rgba(0,0,0,0.3), 0 0 50px 0 rgba(0,0,0,0.1);
 background-position-y: 0px;
 }
 .text {
+  font-size: 25px;  
 padding: 20px;
 color: #555;
+  text-align: left;
 }
+
 #hello {
 padding: 20px;
 color: #f0f0f0;
@@ -156,10 +159,20 @@ border-radius: 7px;
 }
 
 .choose{
-    width: 100%;
+    width: 80%;
     padding-top: 20px;
-    font-size: 50px;
+    font-size: 30px;
     padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
+    text-color: rgba(256, 242, 111);
+}
+
+.bonus{
+    width: 25%;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 5px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
     text-color: rgba(256, 242, 111);
